@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  margin:auto;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 1.5s;
+}
+nav:hover {
+  background-color: darkblue;
+  color: white;
+  border-radius: 50px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
