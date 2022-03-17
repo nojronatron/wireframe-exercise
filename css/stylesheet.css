@@ -10,12 +10,18 @@ header,footer,nav,main,section,article,div {
   border-radius: 4px;
   margin: 10px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 main {
   width: 100%;
 }
+main img {
+  margin: auto;
+
+}
 header {
   width: 100%;
+  padding-top: 0px;
 }
 footer {
   width: 100%;
@@ -34,6 +40,7 @@ article {
   display:flex;
   flex-direction: column;
   width: 50%;
+  padding: 20px;
 }
 li img {
   margin: 0px;
@@ -53,7 +60,7 @@ div:nth-of-type(2):hover {
 nav {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  align-items: center;
 }
 ul {
   font-size: 1.2em;
@@ -75,10 +82,19 @@ li:first-child {
 }
 p {
   display: block;
+  overflow: scroll;
 }
 h2 {
   font-size: 1.3em;
   font-weight: bolder;
-  padding-top: 20px;
-  padding-bottom: 
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+button {
+  width: fit-content;
+}
+button:hover {
+  transition-duration: 0.350s;
+  color: white;
+  background-color: blue;
 }
