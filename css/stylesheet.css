@@ -5,7 +5,7 @@
 body {
   width: 1000px;
 }
-header,footer,nav,main,section,article,div {
+header,footer,nav,main,section,article,div,figure {
   border: black solid 2px;
   border-radius: 4px;
   margin: 10px;
@@ -15,8 +15,13 @@ header,footer,nav,main,section,article,div {
 main {
   width: 100%;
 }
-main img {
-  margin: auto;
+figure {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+figcaption {
+  display: none;
 }
 header {
   width: 100%;
