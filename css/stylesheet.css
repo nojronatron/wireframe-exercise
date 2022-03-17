@@ -3,11 +3,9 @@
   font-size: normal;
 }
 body {
-  width: 1000px;
+  display:flex;
 }
 header,footer,nav,main,section,article,div,figure {
-  border: black solid 2px;
-  border-radius: 4px;
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -85,6 +83,7 @@ li:first-child {
   align-content: center;
 }
 p {
+  font-size: 1.1em;
   display: block;
   overflow: scroll;
 }
