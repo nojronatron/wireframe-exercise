@@ -17,7 +17,6 @@ main {
 }
 main img {
   margin: auto;
-
 }
 header {
   width: 100%;
@@ -92,6 +91,11 @@ h2 {
 }
 button {
   width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: black solid 2px;
+  border-radius: 4px;
 }
 button:hover {
   transition-duration: 0.350s;
